@@ -3,7 +3,7 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
 using MobileClient.Core;
 
-namespace MobileClient.UI.Droid
+namespace MobileClient.Droid
 {
   public class Setup : MvxAndroidSetup
   {
