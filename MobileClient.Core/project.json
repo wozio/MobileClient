@@ -1,0 +1,10 @@
+﻿{
+  "supports": {},
+  "dependencies": {
+    "MvvmCross.Core": "4.4.0",
+    "rda.SocketsForPCL": "2.0.2"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.6,Profile=Profile151": {}
+  }
+}
