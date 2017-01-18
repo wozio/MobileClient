@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26020.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileClient.UI.Droid", "MobileClient.Droid\MobileClient.UI.Droid.csproj", "{5851E2ED-128F-4858-89DE-DC28D6B71DC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileClient.UI.UWP", "MobileClient.UI.UWP\MobileClient.UI.UWP.csproj", "{2AC11B45-6514-4AF0-B261-CB003F6F70AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileClient.Core", "MobileClient.Core\MobileClient.Core.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileClient.Core", "MobileClient.Core\MobileClient.Core.csproj", "{D696181C-A714-478C-A026-DD8895C56B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,22 +65,22 @@ Global
 		{2AC11B45-6514-4AF0-B261-CB003F6F70AC}.Release|x86.ActiveCfg = Release|x86
 		{2AC11B45-6514-4AF0-B261-CB003F6F70AC}.Release|x86.Build.0 = Release|x86
 		{2AC11B45-6514-4AF0-B261-CB003F6F70AC}.Release|x86.Deploy.0 = Release|x86
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|ARM.Build.0 = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|x64.Build.0 = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|x86.Build.0 = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|ARM.ActiveCfg = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|ARM.Build.0 = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|x64.ActiveCfg = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|x64.Build.0 = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|x86.ActiveCfg = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|x86.Build.0 = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|x64.Build.0 = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Debug|x86.Build.0 = Debug|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|ARM.Build.0 = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|x64.ActiveCfg = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|x64.Build.0 = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|x86.ActiveCfg = Release|Any CPU
+		{D696181C-A714-478C-A026-DD8895C56B00}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
