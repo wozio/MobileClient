@@ -4,15 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sockets.Plugin;
+using System.Diagnostics;
 
 namespace MobileClient.Core.Services
 {
-  class Discovery
+  class Discovery : IDiscovery
   {
-    UdpSocketMulticastClient receiver_;
-    Discovery()
+    private UdpSocketMulticastClient receiver_;
+
+    public String get()
     {
-      
+      return "FAFA!!!";
+    }
+
+    public Discovery()
+    {
+      Debug.WriteLine("Discovery created");
       receiver_ = new UdpSocketMulticastClient();
       receiver_.TTL = 5;
 
@@ -21,10 +28,11 @@ namespace MobileClient.Core.Services
         var from = String.Format("{0}:{1}", args.RemoteAddress, args.RemotePort);
         var data = Encoding.UTF8.GetString(args.ByteData, 0, args.ByteData.Length);
 
-        //Debug.WriteLine("{0} - {1}", from, data);
+        Debug.WriteLine("{0} - {1}", from, data);
       };
       join();
     }
+
     private async void join()
     {
       var port = 10001;

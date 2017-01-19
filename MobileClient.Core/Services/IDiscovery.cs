@@ -8,11 +8,6 @@ namespace MobileClient.Core.Services
 {
   public interface IDiscovery
   {
-    event EventHandler ServiceAvailability;
-  }
-
-  public class ServiceAvailabilityData : EventArgs
-  {
-
+    String get();
   }
 }

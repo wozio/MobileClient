@@ -1,17 +1,21 @@
-﻿using MvvmCross.Core.ViewModels;
+﻿using MobileClient.Core.Services;
+using MvvmCross.Core.ViewModels;
 using System;
 
 namespace MobileClient.Core.ViewModels
 {
   public class ServicesViewModel : MvxViewModel
   {
-    public ServicesViewModel()
+    readonly IDiscovery _discovery;
+    public ServicesViewModel(IDiscovery discovery)
     {
+      _discovery = discovery;
+
     }
 
     public override void Start()
     {
-      Service = "DUPA!";
+      Service = _discovery.get();
       base.Start();
     }
 

@@ -1,6 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 using MobileClient.Core.ViewModels;
+using MobileClient.Core.Services;
 
 namespace MobileClient.Core
 {
@@ -8,6 +9,7 @@ namespace MobileClient.Core
   {
     public App()
     {
+      Mvx.RegisterType<IDiscovery, Discovery>();
       Mvx.RegisterSingleton<IMvxAppStart>(new MvxAppStart<ServicesViewModel>());
     }
   }
